@@ -14,7 +14,7 @@ export const AppThemeProvider =({children})=>{
         <ThemeContext.Provider value={ThemeContext}>
             <ThemeProvider theme={DarkTheme}>
             <CssBaseline/>
-            <Box sx={{width:'100vw',height:'100vh',  background: DarkTheme.palette.background.default}}>
+            <Box sx={{background: DarkTheme.palette.background.default}}>
             {children}
             </Box>
             </ThemeProvider>

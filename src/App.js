@@ -1,6 +1,9 @@
 import { BrowserRouter, Route,Routes } from "react-router-dom";
-import { HomePrincipal } from "./pages/home/HomePrincipal";
+
 import { AppThemeProvider } from "./context/AppThemeProvider";
+import { Body } from "./pages/Body/Body";
+
+
 
 function App() {
   return (
@@ -10,7 +13,8 @@ function App() {
   
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<HomePrincipal/>}/>
+      <Route path="/" element={<Body/>}/>
+    
     </Routes>
     </BrowserRouter>
     </AppThemeProvider>

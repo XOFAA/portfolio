@@ -26,10 +26,10 @@ export const NavBar = () => {
                         <Box >
 
                             {pages.map((page) => (
-                                <Button variant="text">{page}</Button>
+                                <Button variant="text" sx={{fontSize:20,fontWeight:'bold'}}>{page}</Button>
                             ))}
                         </Box>
-
+                       
                         <Box sx={{ display: 'flex', gap: 0.5, alignItems: 'center',cursor:'pointer'}}>
                             <LinkedInIcon />
                             <Typography>Linkedin</Typography>
