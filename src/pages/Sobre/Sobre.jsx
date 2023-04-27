@@ -10,7 +10,7 @@ export const Sobre = () => {
 
             <Grid container spacing={5}>
 
-                <Grid item xs={6}>
+                <Grid item xs={12} md={6}>
                     <Box sx={{display:'flex'}}>
 
                     
@@ -20,7 +20,7 @@ export const Sobre = () => {
                     <Typography> acilisis nisl. Duis et leo ut odio rhoncus porta a a dui. Nullam arcu nibh, bibendum in enim sed, ullamcorper feugiat nunc. </Typography>
                 </Grid>
 
-                <Grid item xs={6}>
+                <Grid item xs={12} md={6}>
 
                     <Box sx={{ display: 'flex', boxShadow: 5, borderRadius: 1.5, bgcolor: '#4F4F4F' }}>
 

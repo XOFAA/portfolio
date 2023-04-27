@@ -9,11 +9,11 @@ export const Habiidades=()=>{
 
         <Container>
             <Box sx={{display:'flex',p:1 }}>
-                <Typography sx={{mt:5,fontSize:49,color:'#70FF00',fontWeight:'bold'}}>Habilidades</Typography>
-                <Typography sx={{mt:5,fontSize:49}}>( )</Typography>
+                <Typography sx={{mt:5,fontSize:{xs:30,lg:49},color:'#70FF00',fontWeight:'bold'}}>Habilidades</Typography>
+                <Typography sx={{mt:5,fontSize:{xs:30,lg:49}}}>( )</Typography>
             </Box>
             
-            <Box sx={{display:'flex',flexWrap:'wrap',gap:5,paddingY:10}}>
+            <Box sx={{display:'flex',justifyContent:{xs:'center',lg:'normal'},flexWrap:'wrap',gap:5,paddingY:10}}>
 
             <img style={{height:"128px"}} src="images/habilidades/Javascript.png"/>
      

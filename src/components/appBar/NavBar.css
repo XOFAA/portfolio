@@ -1,0 +1,12 @@
+.navlink{
+    
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    
+}
+.navlink:hover{
+    transition: 0.5s;
+    background-color: #00000033;
+    
+}
