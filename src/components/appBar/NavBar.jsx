@@ -40,15 +40,22 @@ export const NavBar = () => {
                             ))}
                         </Box>
 
-                        <Box sx={{ display: 'flex', gap: 0.5, alignItems: 'center', cursor: 'pointer' }}>
+                        <Box sx={{ display: 'flex', gap: 0.5, alignItems: 'center'}}>
+                            <IconButton sx={{color:'#fff',cursor:'pointer'}} target="_blank" href="https://www.linkedin.com/in/francisco-giovanne-cordeiro-de-oliveira-18b635253/">
                             <LinkedInIcon />
                             <Typography>Linkedin</Typography>
+                            </IconButton>
+                           
+                            <IconButton sx={{color:'#fff',cursor:'pointer'}} target="_blank" href="https://www.linkedin.com/in/francisco-giovanne-cordeiro-de-oliveira-18b635253/">
                             <GitHubIcon sx={{ ml: 2 }} />
                             <Typography>GitHub</Typography>
+                            </IconButton>
 
                             <Box sx={{ ml: 2, display: 'flex', border: 2, paddingX: 1.5, paddingY: 0.8, borderImage: 'linear-gradient( #70FF00, #ffff) 1', cursor: 'pointer' }}>
+                            <IconButton sx={{color:'#fff',cursor:'pointer'}} target="_blank" href="https://www.linkedin.com/in/francisco-giovanne-cordeiro-de-oliveira-18b635253/">
                                 <WhatsAppIcon sx={{ mr: 1 }} />
                                 <Typography>Contate-me</Typography>
+                                </IconButton>
                             </Box>
                         </Box>
 
@@ -58,6 +65,7 @@ export const NavBar = () => {
                     </Box>
 
                     <Box sx={{ display: { xs: 'flex', lg: 'none' }, justifyContent: 'center', width: '100%' }}>
+                        
                         <IconButton size="large"
                             onClick={() => setMenuOpen(true)}
                         >
@@ -84,6 +92,7 @@ export const NavBar = () => {
                                 </Box>
                             ))}
                         </Menu>
+                        
                     </Box>
 
                 </Toolbar>
