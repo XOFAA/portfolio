@@ -27,7 +27,7 @@ export const Header = () => {
 
                               
                                 <Box sx={{display:'flex',alignItems:'center',width:'20%',gap:1}}>
-                                <Typography sx={{fontSize:'86px',fontWeight:'bold',color:'#4F4F4F'}}>1</Typography>
+                                <Typography sx={{fontSize:'86px',fontWeight:'bold',color:'#4F4F4F'}}>2</Typography>
                                 <Typography sx={{fontSize:'27px',fontWeight:'regular',color:'#828282'}}>ANO DE EXPERIENCIA </Typography>
                                 
                                 </Box>
